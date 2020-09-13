@@ -13,9 +13,9 @@ public class ProductClientRibbon {
     RestTemplate restTemplate;
 
     public List<Product> listProdcuts() {
-        Integer aa = restTemplate.getForObject("http://data-server/products",Integer.class);
+        List<Product> aa = restTemplate.getForObject("http://data-server/products",List.class);
         System.out.println(aa);
-        return null;
+        return aa;
     }
 
 }

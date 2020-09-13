@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="productdataservice" />
+        <module name="productviewservicefeign" />
         <module name="productviewserviceribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="1.7" />
       <module name="productdataservice" target="1.7" />
+      <module name="productviewservicefeign" target="1.7" />
       <module name="productviewserviceribbon" target="1.8" />
       <module name="spcpj" target="1.8" />
     </bytecodeTargetLevel>

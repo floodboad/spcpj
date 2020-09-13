@@ -11,6 +11,8 @@
     <module>eurekaserver</module>
     <module>productviewserviceribbon</module>
       <module>productdataservice</module>
+      <module>product-view-service-feign</module>
+    <module>productviewservicefeign</module>
   </modules>
 
   <name>spcpj</name>
