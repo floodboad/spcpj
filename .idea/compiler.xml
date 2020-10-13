@@ -10,9 +10,11 @@
         <module name="productdataservice" />
         <module name="productviewservicefeign" />
         <module name="productviewserviceribbon" />
+        <module name="configserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="configserver" target="1.7" />
       <module name="eurekaserver" target="1.7" />
       <module name="productdataservice" target="1.7" />
       <module name="productviewservicefeign" target="1.7" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />

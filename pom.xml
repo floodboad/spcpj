@@ -13,6 +13,7 @@
       <module>productdataservice</module>
       <module>product-view-service-feign</module>
     <module>productviewservicefeign</module>
+      <module>configserver</module>
   </modules>
 
   <name>spcpj</name>
