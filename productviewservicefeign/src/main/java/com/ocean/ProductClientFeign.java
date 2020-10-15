@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(value = "data-server")
+@FeignClient(value = "data-server",fallback = ProductClientFeignHystrix.class)
 public interface ProductClientFeign {
     @GetMapping("/products")
     public List<Product> listProducts();
