@@ -11,11 +11,13 @@
         <module name="productviewservicefeign" />
         <module name="productviewserviceribbon" />
         <module name="configserver" />
+        <module name="hystrixdashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configserver" target="1.7" />
       <module name="eurekaserver" target="1.7" />
+      <module name="hystrixdashboard" target="1.7" />
       <module name="productdataservice" target="1.7" />
       <module name="productviewservicefeign" target="1.7" />
       <module name="productviewserviceribbon" target="1.8" />
@@ -26,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="hystrixdashboard" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />
       <module name="productviewserviceribbon" options="-parameters" />
