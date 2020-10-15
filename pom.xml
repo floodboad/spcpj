@@ -15,6 +15,8 @@
     <module>productviewservicefeign</module>
       <module>configserver</module>
     <module>hystrixdashboard</module>
+    <module>turbine</module>
+    <module>test</module>
   </modules>
 
   <name>spcpj</name>

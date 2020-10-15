@@ -34,18 +34,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9501888f-ff64-403c-b719-bba178188d4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/turbine.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productviewservicefeign/src/main/java/com/ocean/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/productviewservicefeign/src/main/java/com/ocean/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productviewservicefeign/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productviewservicefeign/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +100,13 @@
       <recent name="D:\_git_yjs\spcpj\eurekaserver\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.feign view 8201">
+  <component name="RunManager" selected="Application.AccessViewService (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="AccessViewService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AccessViewService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ocean.tools.AccessViewService" />
-      <module name="hystrixdashboard" />
+      <module name="turbine" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FreshConfigUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocean.util.FreshConfigUtil" />
-      <module name="productviewservicefeign" />
+    <configuration name="AccessViewService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ocean.tools.AccessViewService" />
+      <module name="hystrixdashboard" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocean.util.*" />
+          <option name="PATTERN" value="com.ocean.tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,6 +226,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="turbine 8021" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ocean.App" />
+      <module name="turbine" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -270,20 +280,21 @@
       <item itemvalue="Application.data server 8002" />
       <item itemvalue="Application.config 8030" />
       <item itemvalue="Application.hystrix dashboard 8020" />
+      <item itemvalue="Application.turbine 8021" />
       <item itemvalue="Application.feign view 8202" />
       <item itemvalue="Application.eureka server 8761" />
       <item itemvalue="Application.data server 8001" />
       <item itemvalue="Application.feign view 8201" />
-      <item itemvalue="Application.FreshConfigUtil" />
       <item itemvalue="Application.AccessViewService" />
+      <item itemvalue="Application.AccessViewService (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessViewService (1)" />
         <item itemvalue="Application.feign view 8201" />
         <item itemvalue="Application.AccessViewService" />
         <item itemvalue="Application.data server 8001" />
         <item itemvalue="Application.eureka server 8761" />
-        <item itemvalue="Application.FreshConfigUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +321,7 @@
       <workItem from="1602659712698" duration="779000" />
       <workItem from="1602660546263" duration="35000" />
       <workItem from="1602660858931" duration="830000" />
-      <workItem from="1602661724673" duration="27093000" />
+      <workItem from="1602661724673" duration="29607000" />
     </task>
     <servers />
   </component>
@@ -338,12 +349,12 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="208" y="23" key="#Project_Structure/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1600672256213" />
-    <state x="184" y="92" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602750712539">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="184" y="92" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602753515934">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="184" y="91" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584086020" />
     <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602662949504" />
-    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750162301" />
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602753515934" />
     <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602750712539" />
     <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1602748597221">
       <screen x="0" y="23" width="1440" height="814" />
@@ -355,8 +366,12 @@
     </state>
     <state x="457" y="238" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584066711" />
     <state x="457" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750159402" />
-    <state width="1396" height="300" key="GridCell.Tab.0.bottom" timestamp="1602750961623">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="100" y="123" width="1240" height="612" key="DiffContextDialog" timestamp="1602751666228">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="100" y="123" width="1240" height="612" key="DiffContextDialog/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602751666227" />
+    <state width="698" height="300" key="GridCell.Tab.0.bottom" timestamp="1602753531821">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584195424" />
     <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1440.804/-1920.23.1920.1057@0.23.1440.804" timestamp="1602585703427" />
@@ -364,15 +379,15 @@
     <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1440.811/-1920.23.1920.1057@0.23.1440.811" timestamp="1602494312165" />
     <state width="1396" height="287" key="GridCell.Tab.0.bottom/0.23.1440.812/-1920.23.1920.1057@0.23.1440.812" timestamp="1602666041391" />
     <state width="1396" height="143" key="GridCell.Tab.0.bottom/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602749114995" />
-    <state width="1396" height="300" key="GridCell.Tab.0.bottom/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750540031" />
+    <state width="698" height="300" key="GridCell.Tab.0.bottom/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602753531821" />
     <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1601031875586" />
-    <state width="1396" height="300" key="GridCell.Tab.0.bottom/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602750961623" />
+    <state width="698" height="300" key="GridCell.Tab.0.bottom/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602753130723" />
     <state width="1358" height="351" key="GridCell.Tab.0.bottom/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1600676667079" />
-    <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602744287631" />
+    <state width="1396" height="300" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602751331868" />
     <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.23.1440.823/-1920.23.1920.1057@0.23.1440.823" timestamp="1602744250647" />
     <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.23.1440.825/-1920.23.1920.1057@0.23.1440.825" timestamp="1602743462589" />
-    <state width="1396" height="300" key="GridCell.Tab.0.center" timestamp="1602750961622">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="698" height="300" key="GridCell.Tab.0.center" timestamp="1602753531820">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584195423" />
     <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1440.804/-1920.23.1920.1057@0.23.1440.804" timestamp="1602585703426" />
@@ -380,15 +395,15 @@
     <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1440.811/-1920.23.1920.1057@0.23.1440.811" timestamp="1602494312164" />
     <state width="1396" height="287" key="GridCell.Tab.0.center/0.23.1440.812/-1920.23.1920.1057@0.23.1440.812" timestamp="1602666041390" />
     <state width="1396" height="143" key="GridCell.Tab.0.center/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602749114993" />
-    <state width="1396" height="300" key="GridCell.Tab.0.center/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750540030" />
+    <state width="698" height="300" key="GridCell.Tab.0.center/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602753531820" />
     <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1601031875586" />
-    <state width="1396" height="300" key="GridCell.Tab.0.center/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602750961622" />
+    <state width="698" height="300" key="GridCell.Tab.0.center/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602753130722" />
     <state width="1358" height="351" key="GridCell.Tab.0.center/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1600676667078" />
-    <state width="1396" height="251" key="GridCell.Tab.0.center/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602744287630" />
+    <state width="1396" height="300" key="GridCell.Tab.0.center/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602751331867" />
     <state width="1396" height="251" key="GridCell.Tab.0.center/0.23.1440.823/-1920.23.1920.1057@0.23.1440.823" timestamp="1602744250646" />
     <state width="1396" height="251" key="GridCell.Tab.0.center/0.23.1440.825/-1920.23.1920.1057@0.23.1440.825" timestamp="1602743462588" />
-    <state width="1396" height="300" key="GridCell.Tab.0.left" timestamp="1602750961621">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="698" height="300" key="GridCell.Tab.0.left" timestamp="1602753531819">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584195422" />
     <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1440.804/-1920.23.1920.1057@0.23.1440.804" timestamp="1602585703426" />
@@ -396,15 +411,15 @@
     <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1440.811/-1920.23.1920.1057@0.23.1440.811" timestamp="1602494312163" />
     <state width="1396" height="287" key="GridCell.Tab.0.left/0.23.1440.812/-1920.23.1920.1057@0.23.1440.812" timestamp="1602666041389" />
     <state width="1396" height="143" key="GridCell.Tab.0.left/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602749114992" />
-    <state width="1396" height="300" key="GridCell.Tab.0.left/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750540030" />
+    <state width="698" height="300" key="GridCell.Tab.0.left/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602753531819" />
     <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1601031875585" />
-    <state width="1396" height="300" key="GridCell.Tab.0.left/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602750961621" />
+    <state width="698" height="300" key="GridCell.Tab.0.left/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602753130721" />
     <state width="1358" height="351" key="GridCell.Tab.0.left/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1600676667077" />
-    <state width="1396" height="251" key="GridCell.Tab.0.left/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602744287629" />
+    <state width="1396" height="300" key="GridCell.Tab.0.left/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602751331866" />
     <state width="1396" height="251" key="GridCell.Tab.0.left/0.23.1440.823/-1920.23.1920.1057@0.23.1440.823" timestamp="1602744250646" />
     <state width="1396" height="251" key="GridCell.Tab.0.left/0.23.1440.825/-1920.23.1920.1057@0.23.1440.825" timestamp="1602743462588" />
-    <state width="1396" height="300" key="GridCell.Tab.0.right" timestamp="1602750961622">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="698" height="300" key="GridCell.Tab.0.right" timestamp="1602753531820">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1440.801/-1920.23.1920.1057@0.23.1440.801" timestamp="1602584195423" />
     <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1440.804/-1920.23.1920.1057@0.23.1440.804" timestamp="1602585703426" />
@@ -412,11 +427,11 @@
     <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1440.811/-1920.23.1920.1057@0.23.1440.811" timestamp="1602494312164" />
     <state width="1396" height="287" key="GridCell.Tab.0.right/0.23.1440.812/-1920.23.1920.1057@0.23.1440.812" timestamp="1602666041390" />
     <state width="1396" height="143" key="GridCell.Tab.0.right/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602749114993" />
-    <state width="1396" height="300" key="GridCell.Tab.0.right/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602750540031" />
+    <state width="698" height="300" key="GridCell.Tab.0.right/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602753531820" />
     <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1601031875586" />
-    <state width="1396" height="300" key="GridCell.Tab.0.right/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602750961622" />
+    <state width="698" height="300" key="GridCell.Tab.0.right/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602753130722" />
     <state width="1358" height="351" key="GridCell.Tab.0.right/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1600676667078" />
-    <state width="1396" height="251" key="GridCell.Tab.0.right/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602744287631" />
+    <state width="1396" height="300" key="GridCell.Tab.0.right/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602751331868" />
     <state width="1396" height="251" key="GridCell.Tab.0.right/0.23.1440.823/-1920.23.1920.1057@0.23.1440.823" timestamp="1602744250647" />
     <state width="1396" height="251" key="GridCell.Tab.0.right/0.23.1440.825/-1920.23.1920.1057@0.23.1440.825" timestamp="1602743462589" />
     <state x="208" y="23" width="1024" height="816" key="SettingsEditor" timestamp="1602665370047">
@@ -427,11 +442,13 @@
     <state x="208" y="23" width="1024" height="816" key="SettingsEditor/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602663637747" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602663551604" />
     <state x="208" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1600676560920" />
-    <state x="88" y="23" key="new project wizard" timestamp="1602749111945">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="88" y="23" key="new project wizard" timestamp="1602751977713">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="88" y="23" key="new project wizard/0.23.1440.814/-1920.23.1920.1057@0.23.1440.814" timestamp="1602749111945" />
+    <state x="88" y="23" key="new project wizard/0.23.1440.816/-1920.23.1920.1057@0.23.1440.816" timestamp="1602751977713" />
     <state x="88" y="51" key="new project wizard/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1602497358890" />
+    <state x="88" y="23" key="new project wizard/0.23.1440.822/-1920.23.1920.1057@0.23.1440.822" timestamp="1602751234298" />
     <state x="478" y="185" width="624" height="532" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602657923588">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
