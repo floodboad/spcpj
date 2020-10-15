@@ -11,7 +11,7 @@
     <module>eurekaserver</module>
     <module>productviewserviceribbon</module>
       <module>productdataservice</module>
-      <module>product-view-service-feign</module>
+      <module>productviewservicefeign</module>
     <module>productviewservicefeign</module>
       <module>configserver</module>
   </modules>
