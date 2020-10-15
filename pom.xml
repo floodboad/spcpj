@@ -17,6 +17,7 @@
     <module>hystrixdashboard</module>
     <module>turbine</module>
     <module>test</module>
+    <module>zuul</module>
   </modules>
 
   <name>spcpj</name>
