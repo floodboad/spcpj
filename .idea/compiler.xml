@@ -10,17 +10,22 @@
         <module name="productviewservicefeign" />
         <module name="turbine" />
         <module name="test" />
+        <module name="product-view-service-ribbon" />
         <module name="productdataservice" />
-        <module name="productviewserviceribbon" />
         <module name="configserver" />
         <module name="zuul" />
         <module name="hystrixdashboard" />
+        <module name="eureka-server" />
+        <module name="product-data-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configserver" target="1.7" />
+      <module name="eureka-server" target="1.7" />
       <module name="eurekaserver" target="1.7" />
       <module name="hystrixdashboard" target="1.7" />
+      <module name="product-data-service" target="1.7" />
+      <module name="product-view-service-ribbon" target="1.8" />
       <module name="productdataservice" target="1.7" />
       <module name="productviewservicefeign" target="1.7" />
       <module name="productviewserviceribbon" target="1.8" />
@@ -33,8 +38,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configserver" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
+      <module name="product-data-service" options="-parameters" />
+      <module name="product-view-service-ribbon" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />
       <module name="productviewserviceribbon" options="-parameters" />

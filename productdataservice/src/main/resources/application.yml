@@ -1,0 +1,42 @@
+server:
+  port: 8001
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  application:
+    name: data-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eurekaServer/eureka
+  instance:
+    #ip-address: 192.168.10.64
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 15
+    leaseRenewalIntervalInSeconds: 5
+    health-check-url-path: /actuator/health
