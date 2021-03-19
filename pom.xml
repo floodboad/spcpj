@@ -18,6 +18,7 @@
     <module>turbine</module>
     <module>test</module>
     <module>zuul</module>
+    <module>gateway</module>
   </modules>
 
   <name>spcpj</name>

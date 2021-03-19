@@ -7,7 +7,12 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 @RestController
@@ -58,6 +63,53 @@ public class ProductController {
     @PostMapping("upload2")
     public Object upload(@RequestPart("file") MultipartFile file,@RequestPart("imageInfo") Product product) {
         System.out.println(product);
+//        MultipartFile multipartFile = new MultipartFile() {
+//            @Override
+//            public String getName() {
+//                return null;
+//            }
+//
+//            @Override
+//            public String getOriginalFilename() {
+//                return null;
+//            }
+//
+//            @Override
+//            public String getContentType() {
+//                return null;
+//            }
+//
+//            @Override
+//            public boolean isEmpty() {
+//                return false;
+//            }
+//
+//            @Override
+//            public long getSize() {
+//                return 0;
+//            }
+//
+//            @Override
+//            public byte[] getBytes() throws IOException {
+//                return new byte[0];
+//            }
+//
+//            @Override
+//            public InputStream getInputStream() throws IOException {
+//                return null;
+//            }
+//
+//            @Override
+//            public void transferTo(File file) throws IOException, IllegalStateException {
+//
+//            }
+//        };
+//        try {
+//            BufferedImage bufferedImage = ImageIO.read(multipartFile.getInputStream());
+//            bufferedImage.get
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         return product;
     }
 }

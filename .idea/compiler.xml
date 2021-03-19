@@ -16,6 +16,7 @@
         <module name="zuul" />
         <module name="hystrixdashboard" />
         <module name="eureka-server" />
+        <module name="gateway" />
         <module name="product-data-service" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="configserver" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="eurekaserver" target="1.7" />
+      <module name="gateway" target="1.7" />
       <module name="hystrixdashboard" target="1.7" />
       <module name="product-data-service" target="1.7" />
       <module name="product-view-service-ribbon" target="1.8" />
@@ -40,6 +42,7 @@
       <module name="configserver" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
