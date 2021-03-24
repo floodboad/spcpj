@@ -11,7 +11,7 @@ spring:
             - Path=/ffff/**          #断言，路径相匹配的进行路由
       discovery:
         locator:
-          enabled: true
+          enabled: true #支持根据服务发现自动路由规则
 #  cloud:
 #    gateway:
 #      routes:

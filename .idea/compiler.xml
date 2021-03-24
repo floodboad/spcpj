@@ -26,11 +26,10 @@
       <module name="eurekaserver" target="1.7" />
       <module name="gateway" target="1.7" />
       <module name="hystrixdashboard" target="1.7" />
-      <module name="product-data-service" target="1.7" />
+      <module name="product-data-service" target="8" />
       <module name="product-view-service-ribbon" target="1.8" />
-      <module name="productdataservice" target="1.7" />
+      <module name="productdataservice" target="1.8" />
       <module name="productviewservicefeign" target="1.7" />
-      <module name="productviewserviceribbon" target="1.8" />
       <module name="spcpj" target="1.8" />
       <module name="test" target="1.7" />
       <module name="turbine" target="1.7" />
@@ -48,7 +47,6 @@
       <module name="product-view-service-ribbon" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />
-      <module name="productviewserviceribbon" options="-parameters" />
       <module name="test" options="" />
       <module name="turbine" options="-parameters" />
       <module name="zuul" options="-parameters" />
