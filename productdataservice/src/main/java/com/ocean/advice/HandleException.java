@@ -1,6 +1,7 @@
 package com.ocean.advice;
 
-import org.springframework.context.annotation.Configuration;
+import com.ocean.result.ExceptionEnum;
+import com.ocean.result.Result;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -20,7 +21,7 @@ public class HandleException {
             return obj.getDefaultMessage();
         }).findFirst().orElse("");
         System.out.println(message + "================");
-        return message;
+        return this.failure(ExceptionEnum.HANDLER_SYSTEM_EXCEPTION.getErrorCode(),message);
     }
 
     @ExceptionHandler(Exception.class)
@@ -28,6 +29,14 @@ public class HandleException {
     public Object handleException(Exception e) {
         String message = e.getMessage();
         System.out.println(message + "================");
-        return message;
+        return this.failure(ExceptionEnum.HANDLER_SYSTEM_EXCEPTION.getErrorCode(),message);
+    }
+
+    private Result failure(ExceptionEnum exceptionInfoEnum) {
+        return Result.builder().success(false).error(exceptionInfoEnum).build();
+    }
+
+    private Result failure(String code, String message) {
+        return Result.builder().success(false).error(code, message).build();
     }
 }

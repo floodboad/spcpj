@@ -15,7 +15,6 @@
         <module name="configserver" />
         <module name="zuul" />
         <module name="hystrixdashboard" />
-        <module name="eureka-server" />
         <module name="gateway" />
         <module name="product-data-service" />
       </profile>

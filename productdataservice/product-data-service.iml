@@ -176,5 +176,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: cn.hutool:hutool-all:4.3.1" level="project" />
     <orderEntry type="library" name="Maven: com.corundumstudio.socketio:netty-socketio:1.7.17" level="project" />
+    <orderEntry type="library" name="Maven: io.socket:socket.io-client:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.socket:engine.io-client:1.0.0" level="project" />
   </component>
 </module>

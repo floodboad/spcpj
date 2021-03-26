@@ -4,16 +4,18 @@ import org.springframework.security.crypto.bcrypt.BCrypt;
 
 public class BCryptUtil {
     public static void main(String[] args) {
-// Hash a password for the first time
+        // Hash a password for the first time
         String password = "testpassword";
         String hashed = BCrypt.hashpw(password, BCrypt.gensalt());
         System.out.println(hashed);
-// gensalt's log_rounds parameter determines the complexity
-// the work factor is 2**log_rounds, and the default is 10
-        String hashed2 = BCrypt.hashpw(password, BCrypt.gensalt(12));
+        // gensalt's log_rounds parameter determines the complexity
+        // the work factor is 2**log_rounds, and the default is 10
+        System.out.println(System.currentTimeMillis());
+        String hashed2 = BCrypt.hashpw(password, BCrypt.gensalt(15));
+        System.out.println(System.currentTimeMillis());
 
-// Check that an unencrypted password matches one that has
-// previously been hashed
+        // Check that an unencrypted password matches one that has
+        // previously been hashed
         String candidate = "testpassword";
 //String candidate = "wrongtestpassword";
         if (BCrypt.checkpw(candidate, hashed)) {

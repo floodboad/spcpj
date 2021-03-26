@@ -1,20 +1,22 @@
 package com.ocean.controller;
 
 import com.corundumstudio.socketio.SocketIOServer;
+import com.ocean.annotation.ResponseBodyResult;
+import com.ocean.annotation.groups.EmployeeCheck;
 import com.ocean.pojo.Employee;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+@ResponseBodyResult
 @RestController
 public class TestController {
 
-    @GetMapping("/addEmployee")
+    @PostMapping("/addEmployee")
     @ResponseBody
-    public Object addEmployee(@Valid Employee employee){
+    public Object addEmployee(@RequestBody @Validated({EmployeeCheck.class}) Employee employee){
 //        throw new Exception("ffff");
         int i = 1/0;
         System.out.println(i);
