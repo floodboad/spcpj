@@ -5,14 +5,17 @@
     <file url="file://$PROJECT_DIR$/configserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fileserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrixdashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqttservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productdataservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productdataservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productviewservicefeign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productviewservicefeign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productviewserviceribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socketioservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/turbine/src/main/java" charset="UTF-8" />

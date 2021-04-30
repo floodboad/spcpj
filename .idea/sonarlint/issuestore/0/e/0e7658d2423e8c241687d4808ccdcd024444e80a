@@ -1,0 +1,18 @@
+
+J
+java:S3740$"/Provide the parametrized type for this generic.(Áââùşÿÿÿÿ
+=
+java:S21896""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(àÃèäùÿÿÿÿ
+C
+java:S1604*"(Make this anonymous inner class a lambda(‰à‹çşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(°„œêşÿÿÿÿ
+U
+java:S1854$":Remove this useless assignment to local variable "params".(Áââùşÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(½Œ½ƒ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ºôŒ±
+\
+java:S2142;"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+F
+java:S1481$"+Remove this unused "params" local variable.(Áââùşÿÿÿÿ

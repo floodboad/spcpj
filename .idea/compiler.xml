@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver" />
-        <module name="productviewservicefeign" />
         <module name="turbine" />
         <module name="test" />
-        <module name="product-view-service-ribbon" />
+        <module name="mqttservice" />
         <module name="productdataservice" />
         <module name="configserver" />
         <module name="zuul" />
+        <module name="eureka-server" />
+        <module name="productviewservicefeign" />
+        <module name="fileserver" />
+        <module name="product-view-service-ribbon" />
+        <module name="socketioservice" />
         <module name="hystrixdashboard" />
         <module name="gateway" />
         <module name="product-data-service" />
@@ -22,15 +25,19 @@
     <bytecodeTargetLevel>
       <module name="configserver" target="1.7" />
       <module name="eureka-server" target="1.7" />
-      <module name="eurekaserver" target="1.7" />
+      <module name="fileserver" target="1.8" />
       <module name="gateway" target="1.7" />
       <module name="hystrixdashboard" target="1.7" />
-      <module name="product-data-service" target="8" />
+      <module name="mqttservice" target="1.8" />
+      <module name="product-data-service" target="1.8" />
       <module name="product-view-service-ribbon" target="1.8" />
       <module name="productdataservice" target="1.8" />
       <module name="productviewservicefeign" target="1.7" />
+      <module name="productviewservicefeign (1)" target="1.7" />
+      <module name="socketioservice" target="1.8" />
       <module name="spcpj" target="1.8" />
       <module name="test" target="1.7" />
+      <module name="testserver" target="1.8" />
       <module name="turbine" target="1.7" />
       <module name="zuul" target="1.7" />
     </bytecodeTargetLevel>
@@ -39,14 +46,18 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configserver" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
-      <module name="eurekaserver" options="-parameters" />
+      <module name="fileserver" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
+      <module name="mqttservice" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
       <module name="productdataservice" options="-parameters" />
       <module name="productviewservicefeign" options="-parameters" />
+      <module name="productviewservicefeign (1)" options="-parameters" />
+      <module name="socketioservice" options="-parameters" />
       <module name="test" options="" />
+      <module name="testserver" options="-parameters" />
       <module name="turbine" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>

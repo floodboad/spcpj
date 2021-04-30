@@ -1,6 +1,7 @@
 package com.ocean.advice;
 
 import com.ocean.annotation.ResponseBodyResult;
+import com.ocean.pojo.G;
 import com.ocean.result.Result;
 import com.ocean.util.JsonUtils;
 import org.springframework.core.MethodParameter;
@@ -12,6 +13,7 @@ import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
+// todo 拦截器
 @RestControllerAdvice
 public class ResponseBodyResultAdvice implements ResponseBodyAdvice<Object> {
     @Override

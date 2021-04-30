@@ -3,13 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eureka-server.iml" filepath="$PROJECT_DIR$/eurekaserver/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileserver/fileserver.iml" filepath="$PROJECT_DIR$/fileserver/fileserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqttservice/mqttservice.iml" filepath="$PROJECT_DIR$/mqttservice/mqttservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/productdataservice/product-data-service.iml" filepath="$PROJECT_DIR$/productdataservice/product-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/productviewserviceribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/productviewserviceribbon/product-view-service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/productdataservice/productdataservice.iml" filepath="$PROJECT_DIR$/productdataservice/productdataservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/productviewservicefeign/productviewservicefeign.iml" filepath="$PROJECT_DIR$/productviewservicefeign/productviewservicefeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socketioservice/socketioservice.iml" filepath="$PROJECT_DIR$/socketioservice/socketioservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/spcpj.iml" filepath="$PROJECT_DIR$/spcpj.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />

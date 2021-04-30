@@ -19,6 +19,9 @@
     <module>test</module>
     <module>zuul</module>
     <module>gateway</module>
+    <module>fileserver</module>
+    <module>socketioservice</module>
+      <module>mqttservice</module>
   </modules>
 
   <name>spcpj</name>

@@ -42,3 +42,5 @@ eureka:
     lease-expiration-duration-in-seconds: 15
     leaseRenewalIntervalInSeconds: 5
     health-check-url-path: /actuator/health
+logging:
+  config: classpath:logback-spring.xml

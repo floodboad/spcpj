@@ -1,14 +1,15 @@
 
-Q	java:S125"<This block of commented-out lines of code should be removed.(µêÖ™
-Q	java:S125("<This block of commented-out lines of code should be removed.(µêÖ™
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
 B
-java:S1481$"'Remove this unused "ps" local variable.(ÚÎ‚ôúÿÿÿÿ
-X	java:S125;"<This block of commented-out lines of code should be removed.(¿šû°8ßØÃ¢„/
-Q	java:S125"<This block of commented-out lines of code should be removed.(©åŞ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¢¾—ºûÿÿÿÿ
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(Â¿³ùøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
+java:S1481)"'Remove this unused "ps" local variable.(ÚÎ‚ôúÿÿÿÿ
+X	java:S125-"<This block of commented-out lines of code should be removed.(µêÖ™8ÉƒÅ¢„/
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
 Q
-java:S1854$"6Remove this useless assignment to local variable "ps".(ÚÎ‚ôúÿÿÿÿ
-]	java:S125-"<This block of commented-out lines of code should be removed.(£¨­Åûÿÿÿÿ8ÉƒÅ¢„/
+java:S1854)"6Remove this useless assignment to local variable "ps".(ÚÎ‚ôúÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Â¿³ùøÿÿÿÿ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(µêÖ™
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(¢¾—ºûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(©åŞ
+]	java:S1252"<This block of commented-out lines of code should be removed.(£¨­Åûÿÿÿÿ8ŞÀí†/
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Ø¦ˆŞúÿÿÿÿ8ŞÀí†/
+X	java:S125B"<This block of commented-out lines of code should be removed.(¨æü8ŞÀí†/
