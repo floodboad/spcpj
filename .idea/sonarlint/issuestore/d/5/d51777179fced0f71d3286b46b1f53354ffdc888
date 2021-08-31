@@ -1,9 +1,2 @@
 
-{
-java:S1488>"^Immediately return this expression instead of assigning it to the temporary variable "server".(Äı‹8ÑÙé‘/
-T
-java:S1128"2Remove this unused import 'brave.sampler.Sampler'.(ÁûùÔşÿÿÿÿ8ÑÙé‘/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Æ…çıÿÿÿÿ8ÑÙé‘/
-T	java:S106%"9Replace this use of System.out or System.err by a logger.(È¼Éa8ÑÙé‘/
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(Ã­¹ë8ÑÙé‘/
-X	java:S1255"<This block of commented-out lines of code should be removed.(ÂÄÌÏ8ÑÙé‘/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(½¦ÿÿÿÿÿ8ïÁÑ¬–/

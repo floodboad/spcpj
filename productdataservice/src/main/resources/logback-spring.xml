@@ -13,7 +13,7 @@
     <springProperty name="springAppName" source="spring.application.name"></springProperty>
 <!--    <property name="LOGPATH" value="log" />-->
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>182.92.68.73:5044</destination>
+        <destination>127.0.0.1:5044</destination>
         <keepAliveDuration>5 minutes</keepAliveDuration>
 <!--        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder"/>-->
         <encoder charset="UTF-8"

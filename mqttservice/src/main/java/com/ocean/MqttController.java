@@ -27,12 +27,12 @@ public class MqttController {
     @ResponseBody
     @GetMapping(value = "/mqtt")
     public ResponseEntity<String> sendMqtt(@RequestParam(value = "msg") String message) throws MqttException {
-        Account account = new Account();
-        account.output();
-        TestConfigurable testConfigurable = new TestConfigurable();
-        testConfigurable.xx();
-        System.out.println(testConfig.id + ";;;;;;;;;========;;;;;");
-        MqttPushClient mqttPushClient = new MqttPushClient(3);
+//        Account account = new Account();
+//        account.output();
+//        TestConfigurable testConfigurable = new TestConfigurable();
+//        testConfigurable.xx();
+//        System.out.println(testConfig.id + ";;;;;;;;;========;;;;;");
+//        MqttPushClient mqttPushClient = new MqttPushClient(3);
         String kdTopic = "topic1";
         MqttPushClient.getInstance().publish(kdTopic, "稍微来点鸡血");
         return new ResponseEntity<>("OK", HttpStatus.OK);

@@ -37,7 +37,6 @@ public class MqttPushClient {
                     mqttPushClient = new MqttPushClient();
                 }
             }
-
         }
         return mqttPushClient;
     }
@@ -74,7 +73,8 @@ public class MqttPushClient {
             // 设置“遗嘱”消息的话题，若客户端与服务器之间的连接意外中断，服务器将发布客户端的“遗嘱”消息。
             options.setWill("willTopic", WILL_DATA, 2, false);
             client.setCallback(new PushCallback());
-            client.connect(options);
+            IMqttToken tok = client.connectWithResult(options);
+            System.out.println(tok);
         } catch (MqttException e) {
             e.printStackTrace();
         }

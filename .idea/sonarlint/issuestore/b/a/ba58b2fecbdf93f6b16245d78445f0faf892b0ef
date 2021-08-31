@@ -1,0 +1,53 @@
+
+J
+java:S3740R"/Provide the parametrized type for this generic.(ç¥ËÕùÿÿÿÿ
+[
+java:S2259±"DA "NullPointerException" could be thrown; "method" is nullable here.(à´ìó
+O
+java:S1128"4Remove this unused import 'java.util.LinkedHashMap'.(ò†ŠÞùÿÿÿÿ
+Q	java:S125""<This block of commented-out lines of code should be removed.(©åÞ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(¢¾—ºûÿÿÿÿ
+Q	java:S125-"<This block of commented-out lines of code should be removed.(µêÖ™
+R
+java:S18545"7Remove this useless assignment to local variable "xxx".(óŸöôûÿÿÿÿ
+S
+java:S18543"8Remove this useless assignment to local variable "tttt".(…Ëÿûÿÿÿÿ
+Q
+java:S1854G"6Remove this useless assignment to local variable "ps".(ÚÎ‚ôúÿÿÿÿ
+W
+java:S1075E"ARefactor your code to get this URI from a customizable parameter.(ãâþÕ
+V	java:S125F"<This block of commented-out lines of code should be removed.(¤™àÄùÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(À­÷Èùÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(Â¿³ùøÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(‚÷‡¯ÿÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(Ôôâ®þÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(ºÍÎÇ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(Û¥þù
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(Ö‰“úÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(ª†œ
+Q	java:S125Z"<This block of commented-out lines of code should be removed.(µêÖ™
+V	java:S125_"<This block of commented-out lines of code should be removed.(£¨­Åûÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Ø¦ˆÞúÿÿÿÿ
+Q	java:S125o"<This block of commented-out lines of code should be removed.(¨æü
+@
+java:S1125¥")Remove the literal "false" boolean value.(Šóò¾
+T	java:S106¦"9Replace this use of System.out or System.err by a logger.(Ýáòõþÿÿÿÿ
+?
+java:S1125´")Remove the literal "false" boolean value.(¡Ê‰;
+C
+java:S3011µ",This accessibility update should be removed.(Ó«§¯
+T	java:S106·"9Replace this use of System.out or System.err by a logger.(¼Þ‹©üÿÿÿÿ
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.( ¯Š
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(ÒÏ¨ÿÿÿÿÿ
+R	java:S125¼"<This block of commented-out lines of code should be removed.(ã­á¬
+a
+java:S2147Ñ"ECombine this catch with the one at line 207, which has the same body.(ü·Ã‹þÿÿÿÿ
+\
+java:S2147Ó"ECombine this catch with the one at line 207, which has the same body.(”ý¾
+D
+java:S14813")Remove this unused "tttt" local variable.(…Ëÿûÿÿÿÿ
+C
+java:S14815"(Remove this unused "xxx" local variable.(óŸöôûÿÿÿÿ
+B
+java:S1481G"'Remove this unused "ps" local variable.(ÚÎ‚ôúÿÿÿÿ

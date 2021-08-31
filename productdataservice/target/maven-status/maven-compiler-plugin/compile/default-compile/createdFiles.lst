@@ -1,6 +1,7 @@
 com\ocean\pojo\G.class
 com\ocean\annotation\ResponseBodyResult.class
 com\ocean\result\ExceptionEnum.class
+com\ocean\util\MyJob.class
 com\ocean\result\Result$1.class
 com\ocean\advice\HandleException.class
 com\ocean\annotation\groups\NameCheck.class
@@ -18,7 +19,9 @@ com\ocean\controller\TestController.class
 com\ocean\result\Result.class
 com\ocean\test\FeignProductService.class
 com\ocean\annotation\MyValidator.class
+com\ocean\pojo\Ttttt.class
 com\ocean\annotation\groups\EmployeeCheck.class
+com\ocean\pojo\Tttt.class
 com\ocean\service\ProductService.class
 com\ocean\result\Result$BuilderImpl.class
 com\ocean\socket\ClientStart.class
@@ -27,6 +30,7 @@ com\ocean\result\Error.class
 com\ocean\pojo\Employee.class
 com\ocean\socket\ServerStart$3.class
 com\ocean\socket\ServerStart$1.class
+com\ocean\util\CronTask.class
 com\ocean\App.class
 com\ocean\controller\ProductController.class
 com\ocean\test\FeignProductServiceImpl.class

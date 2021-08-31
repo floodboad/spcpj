@@ -4,6 +4,7 @@ import brave.sampler.Sampler;
 import com.corundumstudio.socketio.SocketConfig;
 import com.corundumstudio.socketio.SocketIOServer;
 import com.corundumstudio.socketio.annotation.SpringAnnotationScanner;
+import com.ocean.socketio.handler.ExceptionHandler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -35,7 +36,7 @@ public class App
         String os = System.getProperty("os.name");
         if(os.toLowerCase().startsWith("win")){   //在本地window环境测试时用localhost
             System.out.println("this is  windows");
-            config.setHostname("192.168.10.48");
+            config.setHostname("192.168.10.109");
         } else {
             config.setHostname("0.0.0.0");
         }
@@ -47,6 +48,7 @@ public class App
             System.out.println("是否绑定了: "+socketConfig.isReuseAddress());
         }
         config.setSocketConfig(socketConfig);
+        config.setExceptionListener(new ExceptionHandler());
 
         /*config.setAuthorizationListener(new AuthorizationListener() {//类似过滤器
             @Override
